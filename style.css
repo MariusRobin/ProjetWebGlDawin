@@ -1,0 +1,26 @@
+#canvas{
+    float: left;
+}
+
+.maDiv{
+    width: 400px;
+    height: 760px;
+    background-color: Gainsboro;
+    display: inline-block;
+    border: 20px solid Gainsboro;
+}
+
+.maDiv > h1{
+    text-align: center;
+}
+input[type=range].custom-slider {
+    width: 300px;
+    -webkit-appearance: none;     
+    font: inherit;               
+    outline: none;
+    opacity: .8;
+    background: rgb(8, 30, 124); 
+    box-sizing: border-box;       
+    transition: opacity .2s;
+    cursor: pointer;
+  }
